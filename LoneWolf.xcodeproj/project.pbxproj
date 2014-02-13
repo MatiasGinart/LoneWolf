@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2BC9D118AC6B1600CA74BC /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BC9D018AC6B1600CA74BC /* Character.m */; };
+		8C2BC9D318AC6F7F00CA74BC /* luckyTableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2BC9D218AC6F7F00CA74BC /* luckyTableImage.png */; };
+		8C2BC9D718AC701000CA74BC /* LuckyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BC9D618AC701000CA74BC /* LuckyTableView.m */; };
+		8C2BC9DB18AC761C00CA74BC /* LoneWolfTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BC9DA18AC761C00CA74BC /* LoneWolfTabBarViewController.m */; };
+		8C2BC9DE18AC763900CA74BC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BC9DD18AC763900CA74BC /* TestViewController.m */; };
 		8CF2ABE918AC6A7300E2B3CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF2ABE818AC6A7300E2B3CD /* Foundation.framework */; };
 		8CF2ABEB18AC6A7300E2B3CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF2ABEA18AC6A7300E2B3CD /* CoreGraphics.framework */; };
 		8CF2ABED18AC6A7300E2B3CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF2ABEC18AC6A7300E2B3CD /* UIKit.framework */; };
@@ -32,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C2BC9CF18AC6B1600CA74BC /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		8C2BC9D018AC6B1600CA74BC /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		8C2BC9D218AC6F7F00CA74BC /* luckyTableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luckyTableImage.png; sourceTree = "<group>"; };
+		8C2BC9D518AC701000CA74BC /* LuckyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyTableView.h; sourceTree = "<group>"; };
+		8C2BC9D618AC701000CA74BC /* LuckyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyTableView.m; sourceTree = "<group>"; };
+		8C2BC9D918AC761C00CA74BC /* LoneWolfTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoneWolfTabBarViewController.h; sourceTree = "<group>"; };
+		8C2BC9DA18AC761C00CA74BC /* LoneWolfTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoneWolfTabBarViewController.m; sourceTree = "<group>"; };
+		8C2BC9DC18AC763900CA74BC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8C2BC9DD18AC763900CA74BC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		8CF2ABE518AC6A7300E2B3CD /* LoneWolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoneWolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF2ABE818AC6A7300E2B3CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8CF2ABEA18AC6A7300E2B3CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2BC9CE18AC6B0300CA74BC /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BC9CF18AC6B1600CA74BC /* Character.h */,
+				8C2BC9D018AC6B1600CA74BC /* Character.m */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		8C2BC9D418AC6FFF00CA74BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BC9D518AC701000CA74BC /* LuckyTableView.h */,
+				8C2BC9D618AC701000CA74BC /* LuckyTableView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8C2BC9D818AC760300CA74BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BC9D918AC761C00CA74BC /* LoneWolfTabBarViewController.h */,
+				8C2BC9DA18AC761C00CA74BC /* LoneWolfTabBarViewController.m */,
+				8C2BC9DC18AC763900CA74BC /* TestViewController.h */,
+				8C2BC9DD18AC763900CA74BC /* TestViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		8CF2ABDC18AC6A7300E2B3CD = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +150,9 @@
 		8CF2ABEE18AC6A7300E2B3CD /* LoneWolf */ = {
 			isa = PBXGroup;
 			children = (
+				8C2BC9D818AC760300CA74BC /* ViewController */,
+				8C2BC9D418AC6FFF00CA74BC /* Views */,
+				8C2BC9CE18AC6B0300CA74BC /* Character */,
 				8CF2ABF718AC6A7300E2B3CD /* AppDelegate.h */,
 				8CF2ABF818AC6A7300E2B3CD /* AppDelegate.m */,
 				8CF2ABFA18AC6A7300E2B3CD /* Images.xcassets */,
@@ -118,6 +164,7 @@
 		8CF2ABEF18AC6A7300E2B3CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C2BC9D218AC6F7F00CA74BC /* luckyTableImage.png */,
 				8CF2ABF018AC6A7300E2B3CD /* LoneWolf-Info.plist */,
 				8CF2ABF118AC6A7300E2B3CD /* InfoPlist.strings */,
 				8CF2ABF418AC6A7300E2B3CD /* main.m */,
@@ -221,6 +268,7 @@
 			files = (
 				8CF2ABF318AC6A7300E2B3CD /* InfoPlist.strings in Resources */,
 				8CF2ABFB18AC6A7300E2B3CD /* Images.xcassets in Resources */,
+				8C2BC9D318AC6F7F00CA74BC /* luckyTableImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2BC9DE18AC763900CA74BC /* TestViewController.m in Sources */,
 				8CF2ABF918AC6A7300E2B3CD /* AppDelegate.m in Sources */,
 				8CF2ABF518AC6A7300E2B3CD /* main.m in Sources */,
+				8C2BC9D718AC701000CA74BC /* LuckyTableView.m in Sources */,
+				8C2BC9DB18AC761C00CA74BC /* LoneWolfTabBarViewController.m in Sources */,
+				8C2BC9D118AC6B1600CA74BC /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +493,7 @@
 				8CF2AC1318AC6A7300E2B3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF2AC1418AC6A7300E2B3CD /* Build configuration list for PBXNativeTarget "LoneWolfTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +502,7 @@
 				8CF2AC1618AC6A7300E2B3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
